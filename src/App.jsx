@@ -61,14 +61,16 @@ export default function App() {
     <div style={{
       backgroundColor: "#0F172A",
       color: "#F8FAFC",
-      minHeight: "100vh",
+      minHeight: "1
+00vh",
       fontFamily: "system-ui, -apple-system, sans-serif",
       padding: "16px"
     }}>
       {/* Top Header */}
       <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-          <div style={{ backgroundColor: "#2563EB", borderRadius: "50%", width: "36px", height: "36px", display: "flex", alignItems: "center", justifyCenter: "center", fontWeight: "bold", fontSize: "1.2rem", lineHeight: "36px", textAlign: "center" }}>X</div>
+          <div style={{display: "flex", alignItems: "center", justifyContent: "center", 
+ backgroundColor: "#2563EB", borderRadius: "50%", width: "36px", height: "36px", display: "flex", alignItems: "center", justifyCenter: "center", fontWeight: "bold", fontSize: "1.2rem", lineHeight: "36px", textAlign: "center" }}>X</div>
           <h1 style={{ fontSize: "1.4rem", fontWeight: "bold", margin: 0 }}>LiveScore<span style={{ color: "#2563EB" }}>X</span></h1>
         </div>
         <div style={{ display: "flex", gap: "16px", fontSize: "1.2rem", color: "#94A3B8" }}>
