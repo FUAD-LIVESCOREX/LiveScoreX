@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+
+React, { useState } from "react";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("All");
@@ -61,8 +62,8 @@ export default function App() {
     <div style={{
       backgroundColor: "#0F172A",
       color: "#F8FAFC",
-      minHeight: "1
-00vh",
+      minHeight: "100vh",
+00v
       fontFamily: "system-ui, -apple-system, sans-serif",
       padding: "16px"
     }}>
